@@ -1,0 +1,9 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "FlexBE"
+authors = [{name = "Emma Faith", email = "emma.faith.21@cnu.edu"},
+           {name = "David Conner", email = "david.conner@cnu.edu"}]
+dynamic = ["version", "description"]
