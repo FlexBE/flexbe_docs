@@ -18,7 +18,7 @@ extensions = [
     'sphinx.ext.autosectionlabel',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinx_rtd_theme'
+    'sphinxcontrib.youtube'
 ]
 
 intersphinx_mapping = {
@@ -42,7 +42,7 @@ html_theme_options = {
 #     # Toc options
 #     'collapse_navigation': True,
 #     'sticky_navigation': True,
-#     'navigation_depth': 4,
+    'navigation_depth': 2,
     'includehidden': True,
 #     'titles_only': False
 }
@@ -55,7 +55,7 @@ html_favicon = '../images/icon-16.png'
 html_show_sphinx = False
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
-html_show_copyright = False
+html_show_copyright = True
 
 html_search_language = 'en'
 
@@ -71,4 +71,4 @@ html_search_language = 'en'
 # # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'FlexBE'
+htmlhelp_basename = 'FlexBE Documentation'
