@@ -40,3 +40,22 @@ Here are some other publications that go into the higher-level significance of F
     * Kohlbrecher S, Stumpf A, Romay A, Schillinger P, von Stryk O and Conner DC (2016)
       `"A Comprehensive Software Framework for Complex Locomotion and Manipulation Tasks Applicable to Different Types of Humanoid Robots" <https://www.frontiersin.org/articles/10.3389/frobt.2016.00031/full>`_.
       Front. Robot. AI 3:31. doi: 10.3389/frobt.2016.00031
+
+----
+
+FlexBE, initially conceived as an extension to [ROS 1 SMACH](http://wiki.ros.org/smach), was developed by Philipp Schillinger at
+Technische Universität Darmstadt in support of Team ViGIR in the DARPA Robotics Challenge (DRC) from 2012-2015.
+The main parts of the internal operator interaction concepts, especially the *Autonomy Level* for adapting to
+uncertain situations and the usage of a remote behavior mirror for bandwidth efficiency, was developed as part
+of Schillinger's 2013 Bachelor's Thesis.  The concepts were further refined into FlexBE as it exists today during Schillinger's
+[Master's Thesis](https://www.sim.informatik.tu-darmstadt.de/publ/da/2015_Schillinger_MA.pdf) in 2015.
+
+The main goal of FlexBE was to provide a way for a non-developer operator to make adjustments to behaviors during runtime in
+situations where the exact scenario the robot will be facing is not known in advance.
+The extensive user interface was developed in order to support behavior creation and runtime modification
+to reduce the cognitive load on the operator while the robot is in the field, and reduce sources for possible errors
+by running verification checks and automatically generating syntax-error-free code.
+See Chapter 3 of Schillinger's Master's thesis for more details.
+
+* Philipp Schillinger, *Development of an Operator Centric Behavior Control Approach for a Humanoid Robot*. BSc thesis, Technische Universität Darmstadt, 2013.
+* Philipp Schillinger, [*An Approach for Runtime-Modifiable Behavior Control of Humanoid Rescue Robots*](https://www.sim.informatik.tu-darmstadt.de/publ/da/2015_Schillinger_MA.pdf). MSc thesis, Technische Universität Darmstadt, 2015.

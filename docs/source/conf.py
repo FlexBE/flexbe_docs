@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'FlexBE'
-copyright = '2024, Christopher Newport University'
+copyright = '2024, Philipp Schillinger and Christopher Newport University'
 author = 'robotics@cnu.edu'
 
 release = '0.0'

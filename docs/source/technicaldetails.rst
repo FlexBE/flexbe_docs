@@ -1,4 +1,4 @@
-Detailed Overview
+Technical Details
 =================
 
 This section covers the foundations of FlexBE, providing a detailed overview of the separation between the Onboard Behavior Executive and the OCS.
