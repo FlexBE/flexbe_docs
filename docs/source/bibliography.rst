@@ -59,4 +59,4 @@ by running verification checks and automatically generating syntax-error-free co
 See Chapter 3 of Schillinger's Master's thesis for more details.
 
 * Philipp Schillinger, *Development of an Operator Centric Behavior Control Approach for a Humanoid Robot*. BSc thesis, Technische Universität Darmstadt, 2013.
-* Philipp Schillinger, `*An Approach for Runtime-Modifiable Behavior Control of Humanoid Rescue Robots* <https://www.sim.informatik.tu-darmstadt.de/publ/da/2015_Schillinger_MA.pdf>`_. MSc thesis, Technische Universität Darmstadt, 2015.
+* Philipp Schillinger, `An Approach for Runtime-Modifiable Behavior Control of Humanoid Rescue Robots <https://www.sim.informatik.tu-darmstadt.de/publ/da/2015_Schillinger_MA.pdf>`_. MSc thesis, Technische Universität Darmstadt, 2015.
