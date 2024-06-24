@@ -7,7 +7,7 @@ Overview
 .. **FlexBE** is a powerful and user-friendly high-level behavior engine, applicable to numerous systems and scenarios.
 
 **FlexBE** is a powerful and user-friendly high-level behavior engine for the Robotic Operation System (ROS).
-Both ROS 1 (Noetic) and ROS 2 versions are available.
+Both ROS 1 (Noetic) and ROS 2 versions are `available here <https://github.com/FlexBE>`_.
 
 FlexBE is designed to ease the development and execution of complex robotic behaviors through the use of Hierarchical Finite State Machines (HFSMs).
 
@@ -45,6 +45,7 @@ This collaborative approach enables human operators to interact with autonomous 
 adjustable levels of autonomy, harnessing the strengths of both human intelligence and robotic capabilities to achieve mission objectives efficiently.
 The user interface is designed to reduce the cognitive load on the operator while the robot is in the field,
 and reduce errors by running verification checks and automatically generating syntax-error-free code.
+See the :doc:`bibliography` for more details.
 
 Primarily, FlexBE is designed as a high-level behavioral controller.
 It is not focused on high-rate, low-level, safety-critical use cases;
@@ -57,7 +58,7 @@ Both versions of the software are supported, and the basic commands are the same
 Whether managing autonomous missions in hazardous environments, performing intricate manipulation tasks in manufacturing settings, or
 assisting with search and rescue operations, FlexBE empowers users to develop and deploy complex robotic behaviors with ease and confidence!
 
-For a more detailed overview of the FlexBE system, click 'Next'. Otherwise, click :ref:`here <Getting Started>` to get started!
+To get started, click :ref:`here <Getting Started>`!
 
 .. toctree::
    :hidden:
