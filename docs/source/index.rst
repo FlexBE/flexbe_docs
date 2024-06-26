@@ -17,9 +17,6 @@ FlexBE is designed to ease the development and execution of complex robotic beha
   :alt: An image of the FlexBE State Machine Editer should appear here.
 |
 
-FlexBE enables a non-developer operator to make adjustments to behaviors during runtime in
-situations where the exact scenario the robot will be facing is not known in advance.
-
 FlexBE includes both an Onboard (robot) Behavior Executive and an Operator Control Station (OCS) for supervisory control
 and *collaborative autonomy* through adjustable autonomy levels.
 The unique separation between the Onboard behavior and the OCS allows for distinct roles and responsibilities,
@@ -41,10 +38,13 @@ by the OBE, and also supports behavior creation and runtime modification of exec
 
 FlexBE, initially developed by Philipp Schillinger and Team ViGIR during the DARPA Robotics Challenge, promotes
 *collaborative autonomy* by facilitating seamless communication and coordination between the OBE and OCS systems.
-This collaborative approach enables human operators to interact with autonomous robots on a high level when necessary through its
-adjustable levels of autonomy, harnessing the strengths of both human intelligence and robotic capabilities to achieve mission objectives efficiently.
+This collaborative approach enables human operators to interact with autonomous robots on a high level when
+necessary through its adjustable levels of autonomy, harnessing the strengths of both
+human intelligence and robotic capabilities to achieve mission objectives efficiently.
 The user interface is designed to reduce the cognitive load on the operator while the robot is in the field,
 and reduce errors by running verification checks and automatically generating syntax-error-free code.
+FlexBE enables a non-developer operator to make adjustments to behaviors during runtime in
+situations where the exact scenario the robot will be facing is not known in advance.
 See the :doc:`bibliography` for more details.
 
 Primarily, FlexBE is designed as a high-level behavioral controller.
