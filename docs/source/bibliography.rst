@@ -3,35 +3,38 @@ Bibliography
 
 Please cite the following references if you use FlexBE in your research project:
 
-    * Philipp Schillinger, Stefan Kohlbrecher, and Oskar von Stryk,
-    `"Human-Robot Collaborative High-Level Control with Application to Rescue Robotics" <http://dx.doi.org/10.1109/ICRA.2016.7487442>`_,
-    2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, Sweden, 2016,
-    pp. 2796-2802, doi: 10.1109/ICRA.2016.7487442.
+    * Philipp Schillinger, Stefan Kohlbrecher, and Oskar von Stryk,    `"Human-Robot Collaborative High-Level Control with Application to Rescue Robotics" <http://dx.doi.org/10.1109/ICRA.2016.7487442>`_,
+      2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, Sweden, 2016,
+      pp. 2796-2802, doi: 10.1109/ICRA.2016.7487442.
 
     * Joshua Zutell, David C. Conner and Philipp Schillinger,
-    `"ROS 2-Based Flexible Behavior Engine for Flexible Navigation" <http://dx.doi.org/10.1109/SoutheastCon48659.2022.9764047>`_,
-    IEEE SoutheastCon 2022, Mobile, AL, USA, 2022, pp. 674-681, doi: 10.1109/SoutheastCon48659.2022.9764047.
+      `"ROS 2-Based Flexible Behavior Engine for Flexible Navigation" <http://dx.doi.org/10.1109/SoutheastCon48659.2022.9764047>`_,
+      IEEE SoutheastCon 2022, Mobile, AL, USA, 2022, pp. 674-681, doi: 10.1109/SoutheastCon48659.2022.9764047.
 
 .. code-block:: console
 
   @conference{schillinger2016flexbe,
-    Title = {{Human-Robot Collaborative High-Level Control with an Application to Rescue Robotics}},
-    Author = {Philipp Schillinger and Stefan Kohlbrecher and Oskar von Stryk},
-    Booktitle = {IEEE International Conference on Robotics and Automation},
-    Address = {Stockholm, Sweden},
-    Month = {May},
-    Year = {2016}
-    }
+    author={Schillinger, Philipp and Kohlbrecher, Stefan and von Stryk, Oskar},
+    booktitle={2016 IEEE International Conference on Robotics and Automation (ICRA)},
+    title={Human-robot collaborative high-level control with application to rescue robotics},
+    year={2016},
+    pages={2796-2802},
+    doi={10.1109/ICRA.2016.7487442}
+  }
 
 .. code-block:: console
 
   @conference{zutell2022ros,
-    Title = {{ROS 2-Based Flexible Behavior Engine for Flexible Navigation}},
-    Author = {Joshua Zutell and David C. Conner and Philipp Schillinger},
-    Booktitle = {IEEE SouthEastCon},
-    Month = {April},
-    Year = {2022},
-    }
+    author={Zutell, Joshua M. and Conner, David C. and Schillinger, Philipp},
+    booktitle={SoutheastCon 2022},
+    title={ROS 2-Based Flexible Behavior Engine for Flexible Navigation},
+    year={2022},
+    volume={},
+    number={},
+    pages={674-681},
+    keywords={Protocols;Navigation;Operating systems;Collaboration;Automata;User interfaces;Systems support},
+    doi={10.1109/SoutheastCon48659.2022.9764047}
+  }
 
 The following publications describe the higher-level significance of FlexBE and "Collaborative Autonomy" in robotic behavior development:
 
